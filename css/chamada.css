@@ -35,8 +35,8 @@
 
 /* @media screen and (min-width: 610px) -> vai existir para dispositivos que tenham tela */
 /* @media print and (min-width: 610px) -> vai existir para impressoras (ex: boleto) */
-/* @media (min-width: 768px){
-    .chamada {
-        background-color: #f0f;
+@media screen and (min-width: 768px){
+    .chamada__texto {
+        max-width: 600px;
     }
-} */
+}
